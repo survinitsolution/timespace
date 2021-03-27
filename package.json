@@ -2,7 +2,6 @@
   "name": "shards-dashboard-lite-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://survinitsolution.github.io/timespace",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/lab": "^4.0.0-alpha.57",
@@ -34,9 +33,8 @@
     "styled-components": "^5.2.1"
   },
   "scripts": {
-    "start": "set PORT=3006 && react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
